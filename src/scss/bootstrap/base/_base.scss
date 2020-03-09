@@ -1,0 +1,12 @@
+$border: 2px solid #22476b;
+
+body {
+  background: url("../img/bg-top.jpg") center -200px no-repeat, url("../img/bg-repeat.jpg") center -200px repeat-y;
+  background-color: #111d3c;
+  color: white;
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1440px;
+  }
+}
