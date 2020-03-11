@@ -5,8 +5,22 @@ body {
   background-color: #111d3c;
   color: white;
 }
+.ms {
+  margin-top: 80px;
+}
 @media (min-width: 1300px) {
   .container-s {
     max-width: 1440px;
   }
+}
+//layout
+.devider {
+  border-right: 2px solid rgba($color: #666, $alpha: 0.7);
+}
+.race-icon {
+  border: 2px solid green;
+  margin: 2px;
+}
+.race-h2 {
+  margin-top: 20px;
 }
