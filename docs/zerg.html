@@ -34,10 +34,10 @@
       </div>
     </nav>
     <!-- header -->
-    <header class="container container-s">
+    <header class="container container-big">
       <h1 class="display-1 text-center mb-sm-4 mb-md-5">Zerg</h1>
       <div class="row">
-        <div id="zerg-carousel" class="carousel slide col-xl mb-4" data-interval="false">
+        <div id="zerg-carousel" class="carousel slide col-xl-8 mb-4" data-interval="false">
           <ol class="carousel-indicators">
             <li data-target="#zerg-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#zerg-carousel" data-slide-to="1"></li>
@@ -63,14 +63,20 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-        <p class="col-xl">
-          The Zerg Swarm is a terrifying and ruthless amalgamation of biologically advanced, arthropodal aliens. Dedicated to the pursuit of genetic
-          perfection, the zerg relentlessly hunt down and assimilate advanced species across the galaxy, incorporating useful genetic code into their
-          own. They are named "the Swarm" per their ability to rapidly create strains, and the relentless assaults they employ to overwhelm their
-          foes. Alongside the protoss and terrans, the zerg stand as one of the three dominant species of the Milky Way and are universally feared,
-          hated and hunted as such. The Swarm in itself makes up a third of the power of the Koprulu Sector. Zerg remain in areas of the galaxy
-          outside the Koprulu sector.
-        </p>
+        <div class="col-xl">
+          <p>
+            The <span>Zerg Swarm</span> is a terrifying and ruthless amalgamation of biologically advanced, arthropodal aliens. Dedicated to the
+            pursuit of genetic perfection, the zerg relentlessly hunt down and assimilate advanced species across the galaxy, incorporating useful
+            genetic code into their own. They are named "<span>the Swarm</span>" per their ability to rapidly create strains, and the relentless
+            assaults they employ to overwhelm their foes.
+          </p>
+          <hr />
+          <p>
+            Alongside the protoss and terrans, the zerg stand as one of the three dominant species of the Milky Way and are universally feared, hated
+            and hunted as such. The Swarm in itself makes up a third of the power of the <span>Koprulu Sector</span>. Zerg remain in areas of the
+            galaxy outside the Koprulu sector.
+          </p>
+        </div>
       </div>
     </header>
     <!-- pros/cons -->
@@ -95,93 +101,145 @@
         </div>
       </div>
     </section>
-    <!-- lore -->
-    <section class="container container-s ms">
-      <h2 class="display-3 text-center mb-4">Lore</h2>
-      <div class="row">
-        <div class="col-lg d-flex">
-          <div class="card card-s mr-3 mb-3 flex-fill">
-            <img class="card-img-top my-card" src="img/zerg/zerg-overmind.webp" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Overmind</h5>
-              <p class="card-text">
-                The Overmind, or known in the prophecy as the Great Hungerer and as the Great Betrayer by Amon, was the leader of the Zerg Swarm. The
-                Overmind was created by Amon and his followers on Zerus to bring order to the zerg and guide them into merging with the protoss. At
-                first it was only a semi-sentient entity created from the instincts and collective sentience of the zerg, but it quickly developed
-                intellect and personality.
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="https://starcraft.fandom.com/wiki/Overmind" class="card-link">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg d-flex">
-          <div class="card card-s mr-3 mb-3 flex-fill">
-            <img class="card-img-top my-card" src="img/zerg/zerg-char.webp" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Char</h5>
-              <p class="card-text">
-                One wrong step and you find yourself wading in a pool of hot lava. You ever hear the scream of a man as he is being burned alive by
-                lava, Major? It's not something you soon forget, let me tell you. And if the infernal planet doesn't get you, there's always the
-                damned Zerg that'll try and finish the job. Those devils were everywhere, and they killed a whole lot of my buddies in ways I don't
-                want to remember. Char was a hellhole, alright, and I rather have you kill me than send me back there again.
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="https://starcraft.fandom.com/wiki/Char" class="card-link">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg d-flex">
-          <div class="card card-s mr-3 mb-3 flex-fill">
-            <img class="card-img-top my-card img-fluid" src="img/zerg/zerg-queen.webp" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Queen of Blades</h5>
-              <p class="card-text">
-                Sarah Kerrigan was a psychic terran female. She began her career as a Confederate ghost and later became the second-in-command of the
-                Sons of Korhal. Following Arcturus Mengsk's betrayal, she was captured and infested by the Zerg Swarm, becoming the self-proclaimed
-                Queen of Blades (a.k.a. the Zerg Queen) and leader of the Swarm. At the close of the End War, she would ascend to become a xel'naga, a
-                being of immense cosmic power.
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="https://starcraft.fandom.com/wiki/Sarah_Kerrigan" class="card-link">Learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- marco -->
-    <section class="container container-s ms">
+    <section class="container ms">
       <h2 class="display-3 text-center mb-4">Macro</h2>
       <div class="row">
         <div class="col">
-          <img class="img-fluid d-block s-img" src="img/zerg/zerg_queen.jpg" alt="zerg units" />
+          <img class="img-fluid d-block s-img mb-2" src="img/zerg/zerg_queen.jpg" alt="zerg units" />
         </div>
-        <p class="col-xl">
-          Hatcheries produce 1 Larvae every 15 game time seconds so long as there are less than 3 Larvae at that Hatchery. For maximum Larvae
-          production in conjunction with the Spawn Larva ability, it is best to utilize Larvae right when the spawn Larvae pop, so that you are never
-          sitting with 3 or more Larvae. Spawn Larva (25 energy) at a Hatchery controlled by the player or an ally, making 4 Larvae hatch after 40
-          game time seconds. However, it is sometimes desirable to stockpile Larvae and keep injecting larvae with the queen despite foregoing the
-          Hatchery's innate production. Every second that a Hatchery is not injected by a Queen is permanently wasted; if you forget to inject Larvae
-          for some time, you cannot gain that production time back. Creep is important as increased movement speed allows Zerg to flank, engage, and
-          retreat better, all with fewer losses and increased success. Creep Tumors also provide vision.
-        </p>
+        <div class="col-xl">
+          <p>
+            <span>Hatcheries</span> produce 1 Larvae every 15 game time seconds so long as there are less than 3 Larvae at that Hatchery. For maximum
+            Larvae production in conjunction with the Spawn Larva ability, it is best to utilize Larvae right when the spawn Larvae pop, so that you
+            are never sitting with 3 or more Larvae.
+          </p>
+          <hr />
+          <p>
+            <span>Spawn Larva</span> (25 energy) at a Hatchery controlled by the player or an ally, making 4 Larvae hatch after 40 game time seconds.
+            However, it is sometimes desirable to stockpile Larvae and keep <span>injecting larvae</span> with the queen despite foregoing the
+            Hatchery's innate production. Every second that a Hatchery is not injected by a Queen is <span>permanently wasted</span>; if you forget to
+            inject Larvae for some time, you cannot gain that production time back.
+          </p>
+          <hr />
+          <p>
+            <span>Creep</span> is important as increased movement speed allows Zerg to flank, engage, and retreat better, all with fewer losses and
+            increased success. Creep Tumors also provide <span>vision</span>.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- cards -->
+    <section class="container container-big ms">
+      <h2 class="display-3 text-center mb-4">Lore</h2>
+      <div class="row">
+        <div class="col-lg d-flex">
+          <div class="card card__border mr-3 mb-3 flex-fill">
+            <img class="card-img-top" src="img/zerg/zerg-overmind.webp" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Overmind</h5>
+              <div class="card-text">
+                <p>
+                  <span>The Overmind</span>, or known in the prophecy as <span>the Great Hungerer</span>, was the leader of the Zerg Swarm. The
+                  Overmind was created by <span>Amon</span> and his followers on Zerus to bring order to the zerg and guide them into merging with the
+                  protoss.
+                </p>
+                <hr />
+                <p>
+                  At first it was only a semi-sentient entity created from the instincts and collective sentience of the zerg, but it quickly
+                  developed <span>intellect and personality</span>.
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <a href="https://starcraft.fandom.com/wiki/Overmind" class="card-link card__link">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg d-flex">
+          <div class="card card__border mr-3 mb-3 flex-fill">
+            <img class="card-img-top" src="img/zerg/zerg-char.webp" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Char</h5>
+              <div class="card-text">
+                <p>
+                  <span>Char</span>? You want me to tell you about Char? Oh man, I still wake up screaming from the <span>nightmares</span> I have
+                  about that pit. One wrong step and you find yourself wading in a pool of hot lava. You ever hear the scream of a man as he is being
+                  <span>burned alive by lava</span>, Major? It's not something you soon forget, let me tell you.
+                </p>
+                <hr />
+                <p>
+                  And if the infernal planet doesn't get you, there's always the <span>damned Zerg</span> that'll try and finish the job. Those devils
+                  were everywhere, and they killed a whole lot of my buddies in ways I don't want to remember. Char was a hellhole, alright, and I
+                  rather have you <span>kill me than send me back</span> there again.
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <a href="https://starcraft.fandom.com/wiki/Char" class="card-link card__link">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg d-flex">
+          <div class="card card__border mr-3 mb-3 flex-fill">
+            <img class="card-img-top img-fluid" src="img/zerg/zerg-queen.webp" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Queen of Blades</h5>
+              <div class="card-text">
+                <p>
+                  <span>Sarah Kerrigan</span> was a psychic terran female. She began her career as a Confederate ghost and later became the
+                  second-in-command of the Sons of Korhal.
+                </p>
+                <hr />
+                <p>
+                  Following Arcturus Mengsk's betrayal, she was captured and <span>infested</span> by the Zerg Swarm, becoming the self-proclaimed
+                  <span>Queen of Blades</span> (a.k.a. the Zerg Queen) and leader of the Swarm. At the close of the End War, she would ascend to
+                  become a <span>xel'naga</span>, a being of immense cosmic power.
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <a href="https://starcraft.fandom.com/wiki/Sarah_Kerrigan" class="card-link card__link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Micro -->
+    <section class="container ms">
+      <h2 class="display-3 text-center mb-4 col">Micro</h2>
+      <div class="row">
+        <div class="col-xl">
+          <img class="img-fluid d-block s-img mb-2" src="img/zerg/zerg_units.jpg" alt="zerg units" />
+        </div>
+        <div class="col">
+          <p>
+            Since the Zerg build such <span>specialized troops</span>, spying on your opponent is important when deciding on your strategy. Be sure to
+            take a look at the Zerg <span>scouting guide</span> for strategies on how to scout against Terran and Protoss opponents, as well as how to
+            protect yourself against them. Make sure to pursue enemy soldiers in smaller groups and overwhelm them with large quantities of troops.
+            Since Zerg units are so specialized, make sure to align your units in battle so you will emerge <span>victorious every time</span>.
+          </p>
+          <hr />
+          <p>
+            <span>Scouting</span> is how you gather information about your opponent's actions. Early in the game you can achieve this by sending a
+            <span>worker unit</span> to your opponent's base to see what decisions he is making. Scouting itself utilizes your
+            <span>micro skills</span> so that you can make more informed decisions about your macro.
+          </p>
+        </div>
       </div>
     </section>
     <!-- units -->
-    <section class="container container-s ms">
+    <section class="container container-big ms">
       <div class="row">
         <h2 class="display-3 text-center col-xl">Zerg Units</h2>
         <div class="col">
-          <img class="d-block mx-auto" src="img/zerg/Zerg_header.webp" alt="zerg-header" />
+          <img class="d-block mx-auto img-fluid" src="img/zerg/Zerg_header.webp" alt="zerg-header" />
         </div>
       </div>
       <div class="row">
-        <div class="col-md">
+        <div class="col-lg">
           <h2 class="text-center race-h2">Tier 1</h2>
           <div class=" d-flex flex-wrap align-items-start">
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Larva.webp" alt="larva" />
@@ -191,13 +249,15 @@
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Baneling.webp" alt="larva" />
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Queen.webp" alt="larva" />
             <p class="mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est accusamus harum maiores molestias facere autem corrupti iste ipsum eum ut
-              magnam deserunt delectus enim quidem illum saepe sint, eaque numquam! Odit iusto quasi nobis a. Quia, laborum nobis quam saepe
-              voluptatibus provident earum numquam molestiae doloribus sequi nisi voluptas dolores?
+              The Zerg have an exponential economy so it’s important to build <span>Drones</span> as much as you can. <span>Queens</span> are great
+              jack of all trades defensive tool. Getting some extra, besides your macro <span>Queens</span> is usually a good idea.
+              <span>Zergling</span> lose a choke fight against Zealots or Marines, but if they can get a surround they will win. Use them for
+              harassment as they accel in that. <span>Banelings</span> are an excellent unit. Use them to counter Marines, Zealots or just run them
+              into the enemy worker line.
             </p>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <h2 class="text-center race-h2">Tier 2</h2>
           <div class="d-flex flex-wrap align-items-start">
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Roach.webp" alt="larva" />
@@ -208,13 +268,13 @@
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Overseer.webp" alt="larva" />
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Changeling.webp" alt="larva" />
             <p class="mt-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, excepturi? Excepturi vitae modi deleniti ducimus assumenda
-              voluptatem nisi voluptate dolore earum reprehenderit deserunt iusto, animi libero facere! Modi fugit debitis dolorum, qui illo, impedit
-              beatae ex tenetur culpa ducimus odio cumque eligendi ullam recusandae quidem.
+              <span>Roach Ravager</span> combo is reliable in the mid game. A fast <span>Mutalisk</span> switch can surprise your opponent and kill
+              lots of workers. Use <span>Overseers</span> liberally with Changeling to scout and keep an eye on your opponent. When in doubt build
+              <span>Roach Hydra</span>.
             </p>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <h2 class="text-center race-h2">Tier 3</h2>
           <div class="d-flex flex-wrap align-items-start">
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Viper.webp" alt="larva" />
@@ -224,49 +284,35 @@
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Ultralisk.webp" alt="larva" />
             <img class="race-icon" src="img/zerg/zerg_icons/Icon_Zerg_Swarm_Host.webp" alt="larva" />
             <p class="mt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus in sit cum molestias placeat, consequatur voluptas ab
-              exercitationem. Voluptates, ipsam sit molestiae vero dolore pariatur architecto quis aut perspiciatis dolores? Culpa earum molestiae aut
-              minima consequuntur! Quidem necessitatibus ullam praesentium animi quas at possimus a voluptate magnam omnis, porro unde reiciendis
-              maxime facere alias ratione.
+              <span>Ultralisk</span> are good in some situations but <span>Brood Lords</span> are usually better. <span>The Brood Lord</span> is the
+              de facto late game Zerg unit. In combination with <span>Lurkers</span> and <span>Infestor</span> support very little can stop this
+              combo. Zerg have access to some of the best spell casters in the game. Be sure to use them. If you are a <span>bad person</span> Nydus
+              Swarm host play is very good if you enjoy <span>inflicting pain</span> on other humans.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <!-- Micro -->
-    <section class="container container-s ms">
-      <h2 class="display-3 text-center mb-4 col">Micro</h2>
-      <div class="row">
-        <div class="col-xl">
-          <img class="img-fluid d-block s-img" src="img/zerg/zerg_units.jpg" alt="zerg units" />
-        </div>
-        <p class="col">
-          Scouting is how you gather information about your opponent's actions. Early in the game you can achieve this by sending a worker unit to
-          your opponent's base to see what decisions he is making. Scouting itself utilizes your micro skills so that you can make more informed
-          decisions about your macro. Since the Zerg build such specialized troops, spying on your opponent is important when deciding on your
-          strategy. Be sure to take a look at the Zerg scouting guide for strategies on how to scout against Terran and Protoss opponents, as well as
-          how to protect yourself against them. Make sure to pursue enemy soldiers in smaller groups and overwhelm them with large quantities of
-          troops. Since Zerg units are so specialized, make sure to align your units in battle so you will emerge victorious every time.
-        </p>
-      </div>
-    </section>
-    <!-- chesse -->
-    <section class="container container-s ms">
-      <h2 class="display-3 text-center mb-4">Cheese</h2>
-      <div class="row">
-        <p class="col">
-          Cheese most often refers to an unexpected strategy that relies in large parts on lack of information and/or psychological impact on the
-          opponent. Cheese build orders typically revolve around an early attack that, if undetected, is more difficult to defend than execute.
-          Aggressive Pool First - Where a Zerg player immediately creates a Spawning Pool at the beginning of the game and produces Zerglings to rush
-          the enemy before they have any defences up. Proxy Hatchery - A ramp assault using queens and Spine Crawlers can occur in ZvP when a Zerg
-          places a hatchery in his opponent's expansion, and uses the creep spread to plant the spinecrawlers. The hatchery also allows faster unit
-          attack after production, as well as queen production.
-        </p>
-        <div class="col-xl">
-          <img class="img-fluid d-block mb-2 s-img" src="img/zerg/zerg_dark.jpg" alt="zerg Cheese" />
+    <!-- footer -->
+    <footer class="footer w-100 ms">
+      <div class="container pt-5">
+        <div class="row">
+          <ul class="col list-unstyled">
+            <li><a href="">CSS</a></li>
+            <li><a href="">SCSS</a></li>
+            <li><a href="">Sitemap</a></li>
+          </ul>
+          <a href="index.html" class="col">
+            <img class="nav__logo" src="img/sc2logo.png" alt="logo" />
+          </a>
+          <ul class="col list-unstyled">
+            <li><a href="">Official Site</a></li>
+            <li><a href="">TeamLiquid</a></li>
+            <li><a href="">SC2 Wikia</a></li>
+          </ul>
         </div>
       </div>
-    </section>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
