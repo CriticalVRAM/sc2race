@@ -3,17 +3,10 @@ $base-color: #22476b;
 $base-color-l: lighten($base-color, 20%);
 
 body {
-  background: url("../img/bg-top.jpg") center -200px no-repeat, url("../img/bg-repeat.jpg") center -200px repeat-y;
+  background: url("../img/bg-top.jpg") center -200px no-repeat,
+    url("../img/bg-repeat.jpg") center -200px repeat-y;
   background-color: #111d3c;
   color: white;
-}
-@media (min-width: 1300px) {
-  .container-big {
-    max-width: 1440px;
-  }
-}
-.ms {
-  margin-top: 80px;
 }
 hr {
   border-top: 2px solid rgba($color: #666, $alpha: 0.7);
@@ -32,27 +25,8 @@ p span {
   border: 3px solid $base-color-l;
 }
 // units
-.race-icon {
-  border: 2px solid $base-color-l;
-  margin: 2px;
-}
 .race-h2 {
   margin-top: 20px;
-}
-// cards
-.card-img-top {
-  width: 100%;
-  height: 40vh;
-  object-fit: cover;
-}
-.card {
-  &__border {
-    background-color: #121d3d !important;
-    border: 2px solid $base-color-l;
-  }
-  &__link {
-    text-decoration: underline;
-  }
 }
 //footer
 .footer {
