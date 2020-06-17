@@ -3,8 +3,7 @@ $base-color: #22476b;
 $base-color-l: lighten($base-color, 20%);
 
 body {
-  background: url("../img/bg-top.jpg") center -200px no-repeat,
-    url("../img/bg-repeat.jpg") center -200px repeat-y;
+  background: url("../img/bg-top.jpg") center -200px no-repeat, url("../img/bg-repeat.jpg") center -200px repeat-y;
   background-color: #111d3c;
   color: white;
 }
