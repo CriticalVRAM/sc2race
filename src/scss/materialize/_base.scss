@@ -14,8 +14,41 @@ hr {
 p span {
   color: red;
 }
-
-//layout
+// header
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  div {
+    display: grid;
+    position: relative;
+    &:hover {
+      img {
+        filter: blur(2px);
+        filter: brightness(15%);
+      }
+      p {
+        opacity: 100%;
+      }
+    }
+  }
+  p {
+    opacity: 0%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+    font-size: 42px;
+  }
+  img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s;
+  }
+}
+// layout
 .devider {
   border-right: 2px solid rgba($color: #666, $alpha: 0.7);
 }
