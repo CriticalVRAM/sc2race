@@ -1,8 +1,5 @@
-2 colum competetive scene with modal of top players
-footer
-
 about page with form
 
 fix icons
 
-add content
+add content to race pages
