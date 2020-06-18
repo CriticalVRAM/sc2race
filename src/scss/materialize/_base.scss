@@ -22,6 +22,9 @@ p span {
 .header {
   &__title {
     height: 700px;
+    @media screen and (max-width: 600px) {
+      height: 620px;
+    }
     display: grid;
     align-items: center;
     justify-items: center;
@@ -31,6 +34,9 @@ p span {
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
+  }
+  img {
+    max-width: 100%;
   }
   &__copy {
     text-align: center;
@@ -43,17 +49,21 @@ p span {
     }
   }
 
-  &__text {
+  &__textbox {
     height: 350px;
+
     display: grid;
     align-items: center;
     justify-items: center;
     align-content: center;
     text-align: center;
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/home/text-bg.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
     p {
       width: 50%;
     }
@@ -62,6 +72,7 @@ p span {
   &__race {
     display: grid;
     height: 350px;
+    color: white;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -80,7 +91,7 @@ p span {
       background-image: url("../img/home/jr.jpg");
       transition: 0.3s;
       &:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home/jr.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/home/jr.jpg");
       }
     }
     &--z {
@@ -88,7 +99,7 @@ p span {
       background-image: url("../img/home/sk.jpg");
       transition: 0.3s;
       &:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home/sk.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/home/sk.jpg");
       }
     }
     &--p {
@@ -96,7 +107,7 @@ p span {
       background-image: url("../img/home/ar.png");
       transition: 0.3s;
       &:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home/ar.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/home/ar.png");
       }
     }
   }
