@@ -22,8 +22,7 @@
 }
 .nav-wrapper {
   display: grid;
-  grid-auto-flow: column;
-  justify-items: right;
+  grid-template-columns: 60px 1fr;
   padding: 0px 16px;
 }
 .sidenav {
@@ -33,4 +32,7 @@
   li a {
     color: white;
   }
+}
+.sidenav-trigger {
+  justify-self: right;
 }

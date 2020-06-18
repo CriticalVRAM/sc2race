@@ -1,5 +1,3 @@
 about page with form
 
-fix icons
-
 add content to race pages
