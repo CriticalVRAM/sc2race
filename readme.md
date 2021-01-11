@@ -2,4 +2,4 @@
 
 ## Bootstrap + Materialize school project
 
-[Website link](https://nani-sore-0.github.io/sc2race/)
+[Website link](https://nanibyte.github.io/sc2race/)
